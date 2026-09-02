@@ -4,6 +4,6 @@ resource "terraform_data" "test_resource_1" {
 
 module "big" {
   source     = "./big-module"
-  label      = "v24"
+  label      = "v25"
   base_count = 5
 }
