@@ -4,7 +4,7 @@ resource "terraform_data" "test_resource_1" {
 
 module "big" {
   source     = "./big-module"
-  label      = "v10"
+  label      = "v11"
   base_count = 5
   fan_out    = 10
 }
