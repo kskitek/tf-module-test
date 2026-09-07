@@ -3,7 +3,7 @@ resource "terraform_data" "test_resource_1" {
 }
 
 module "big" {
-  source     = "./big-module"
-  label      = "v35"
-  base_count = 5
+  source = "./big-module"
+  label  = "v40"
+  # base_count = 5
 }
