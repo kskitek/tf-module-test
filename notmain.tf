@@ -1,8 +1,4 @@
-resource "terraform_data" "test_resource_1" {
+resource "terraform_data" "notmain" {
   input = "${var.name}-notmain"
-}
-
-module "big" {
-  source = "./big-module"
-  label  = "v1"
+  label = "z1"
 }

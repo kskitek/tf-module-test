@@ -3,3 +3,8 @@ variable "name" {
   description = "just name."
   default     = "justaname"
 }
+
+variable "label" {
+  type    = string
+  default = "v1"
+}
