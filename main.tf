@@ -1,4 +1,4 @@
 resource "terraform_data" "main" {
-  input = var.name
-  label = "v1"
+  input = "${var.label}-${count.index}"
+  count = var.resource_count
 }
