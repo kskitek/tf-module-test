@@ -1,4 +1,4 @@
 resource "terraform_data" "notmain" {
   input = "${var.label}-notmain-${count.index}"
-  count = var.resource_count + 200
+  count = var.resource_count + 2
 }
