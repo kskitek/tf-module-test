@@ -1,4 +1,4 @@
 resource "terraform_data" "main" {
   input = "${var.label}-${count.index}"
-  count = var.resource_count + 3
+  count = var.resource_count + 1
 }
